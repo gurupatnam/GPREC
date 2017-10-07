@@ -1,0 +1,21 @@
+<android.support.v4.view.ViewPager
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/pager1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:nestedScrollingEnabled="true">
+    <android.support.v4.view.PagerTitleStrip
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="#73e0ad"
+        android:id="@+id/title"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:clickable="false"
+        android:scrollIndicators="left|right">
+    </android.support.v4.view.PagerTitleStrip>
+
+</android.support.v4.view.ViewPager>

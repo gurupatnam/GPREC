@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/tata"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="G.Pulla Reddy Engineering College (Autonomous), the pride of Kurnool town is the brain child   of late Sri G. Pulla Reddy (10-01-1921 to 09-05-2007), the renowned philanthropist. The college   was inaugurated by the world famous ophthalmologist, Padma Bhushan, Dr.P. Siva Reddy on   22nd February, 1985. With the munificent grants and pragmatic guidance of Sri. G.Pulla Reddy,   the college has made a steady progress and has become a premier institute of technical education.   Though the college is second to none in physical infrastructure and human resources, it is   primarily known for its discipline and value system. Though Sri. G.Pulla Reddy subsequently   established several educational institutions of repute, GPREC has remained his “first love”   and is the flagship organization of all of them."
+        android:id="@+id/textView21"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:enabled="true"
+        android:lines="@integer/bottom_sheet_slide_duration"
+        android:nestedScrollingEnabled="true"
+        android:typeface="serif"
+        android:textIsSelectable="true" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>

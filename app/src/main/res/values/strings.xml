@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GPREC</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contactus">contactus</string>
+    <string name="title_activity_circulars">circulars</string>
+    <string name="title_activity_student">student</string>
+    <string name="title_activity_login">LOGIN</string>
+    <string name="title_activity_aboutus">aboutus</string>
+    <string name="title_activity_zeba">zeba</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2805224411284013/3153236484</string>
+
+</resources>

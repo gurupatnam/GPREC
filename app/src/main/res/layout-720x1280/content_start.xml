@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgr"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.balud.gprec.START"
+    tools:showIn="@layout/activity_start"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/gprec_addr"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/address"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageButton9"
+        android:background="@drawable/abt"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/parent1"
+        android:layout_below="@+id/imageButton9"
+        android:layout_alignLeft="@+id/imageButton9"
+        android:layout_alignStart="@+id/imageButton9"
+        android:layout_marginTop="35dp" />
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton3"
+        android:background="@drawable/nts"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginLeft="25dp" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton4"
+        android:background="@drawable/contact"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/imageButton3"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2"
+        android:layout_marginRight="-5dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton5"
+        android:background="@drawable/fbi1"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="35dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton6"
+        android:background="@drawable/twittericon"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_toRightOf="@+id/imageButton5"
+        android:layout_toEndOf="@+id/imageButton5"
+        android:layout_marginLeft="35dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton7"
+        android:background="@drawable/transparent"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_toRightOf="@+id/imageButton6"
+        android:layout_toEndOf="@+id/imageButton6"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-4dp" />
+
+    <ImageButton
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/student3"
+        android:layout_alignBottom="@+id/imageButton7"
+        android:layout_toRightOf="@+id/imageButton7"
+        android:layout_toEndOf="@+id/imageButton7"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="35dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="ABOUT US"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/imageButton9"
+        android:layout_toRightOf="@+id/imageButton9"
+        android:textStyle="normal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="12dp"
+        android:typeface="serif"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="STUDENT/PARENT LOGIN"
+        android:id="@+id/button2"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:textSize="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:typeface="serif" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="CIRCULARS"
+        android:id="@+id/button3"
+        android:layout_above="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton3"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:typeface="serif"
+        android:textSize="12dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="CONTACT US"
+        android:id="@+id/button4"
+        android:typeface="serif"
+        android:textSize="12dp"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+</RelativeLayout>

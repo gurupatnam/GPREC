@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <ImageButton
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/psrrr"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P.SUBBA REDDY"
+        android:id="@+id/textView22"
+        android:typeface="serif"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView58"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Chairman &amp;  Secretary"
+        android:id="@+id/textView58"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="45dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The college is managed by G. Pulla Reddy  Charities Trust which was instituted by the   Sweets Legend,  Sri G.Pulla Reddy,  in 1975 with the motto of rendering service to society. Sri   G.Pulla Reddy is the epitome of a self made man. Born into a lower middle class agricultural   family, he imbibed all the virtues of an Indian farmer.  Deprived of educational opportunities as a   child, he made it a mission of his life to provide educational opportunities to the people of this   backward region of Rayalaseema from which he hailed. After the demise of the founder   Chairman Sri G.Pulla Reddy in 2007,  Sri P.Subba Reddy, the Secretary of the college, has   taken up the responsibilities of both the Chairman and Secretary. Sri P.Subba Reddy is one of   the Trustees of G.Pulla Reddy Charities Trust right from its inception. Thus he has vast   experience of administration of educational organizations in the capacity of the Secretary.   Nurtured and guided by the founder chairman of the Trust, late Sri G.Pulla Reddy, he has a great   vision and is dedicated to the cause of education. Ever cheerful and with enormous patience and   pragmatic outlook, he has been the live wire in the administrative set up of the Trust and all the   institutions of the Trust have made Phenomenal progress under his supervision."
+        android:id="@+id/textView59"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:typeface="serif"
+        android:lines="@integer/bottom_sheet_slide_duration"
+        android:paddingTop="5dp"
+        android:nestedScrollingEnabled="true"
+        android:enabled="true"
+        android:textIsSelectable="true"
+        android:textSize="30dp" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+
+</RelativeLayout>

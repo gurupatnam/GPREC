@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_weight="1"
+        >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="B.Tech Programs"
+            android:id="@+id/textView60"
+            android:textAlignment="center"
+            android:typeface="serif"
+            android:background="#fbb40e"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="*  CIVIL ENGINEERING (CE)  120"
+                android:id="@+id/textView61"
+                android:paddingTop="5dp"
+                android:typeface="serif"
+                android:backgroundTint="#040101" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* COMPUTER SCIENCE &amp; ENGINEERING (CSE)  180"
+                android:id="@+id/textView63"
+                android:paddingTop="5dp"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="*  ELECTRONICS &amp; COMMUNICATIONS ENGINEERING (ECE)    180"
+                android:id="@+id/textView65"
+                android:paddingTop="5dp"
+                android:typeface="serif"
+                android:foregroundTint="#040202" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="*  ELECTRICAL &amp; ELECTRONICS ENGINEERING (EEE)   120"
+                android:id="@+id/textView67"
+                android:paddingTop="5dp"
+                android:typeface="serif"
+                android:foregroundTint="#040202" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* MECHANICAL ENGINEERING (ME)  120"
+                android:id="@+id/textView69"
+                android:paddingTop="5dp"
+                android:typeface="serif"
+                android:foregroundTint="#040202" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="M.Tech Programs"
+            android:id="@+id/textView62"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:background="#87ecd1"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* COMPUTER SCIENCE AND ENGINEERING (CSE) [CSE Dept.] 18"
+                android:id="@+id/textView64"
+                android:typeface="serif"
+                android:paddingTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* STRUCTURAL ENGINEERING (SE) [Civil Engg. Dept.] 18"
+                android:id="@+id/textView66"
+                android:typeface="serif"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* VLSI and EMBEDDED SYSTEMS (VLSI &amp; ES) [ECE Dept.] 18"
+                android:id="@+id/textView68"
+                android:typeface="serif"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* COMMUNICATIONS &amp; SIGNAL PROCESSING (CSP) [ECE Dept.] 18"
+                android:id="@+id/textView70"
+                android:typeface="serif"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* POWER ELECTRONICS (PE) [EEE Dept.] 18"
+                android:id="@+id/textView71"
+                android:typeface="serif"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* COMPUTER AIDED DESIGN &amp; COMPUTER AIDED   MANUFACTURING (CAD/CAM) [Mechanical Engg. Dept.] 18"
+                android:id="@+id/textView72"
+                android:typeface="serif"
+                android:layout_marginTop="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* THERMAL SCIENCES &amp; ENERGY SYSTEMS (TSES) (Mech Dept.) 18"
+                android:id="@+id/textView73"
+                android:typeface="serif"
+                android:layout_marginTop="5dp"
+                android:focusable="false" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ph.D Programs"
+            android:id="@+id/textView74"
+            android:background="#a26df3"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="* All the Engineering departments in the college have Research Centres recognized by JNTUA,   Anantapur.   All the Five Engineering departments offer full time PH.D programmes."
+                android:id="@+id/textView75"
+                android:typeface="serif"
+                android:paddingTop="5dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+</RelativeLayout>
